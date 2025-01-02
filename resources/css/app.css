@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[x-cloak] {
+    display: none;
+}
+
+@layer base {
+    @font-face {
+        font-family: "Cairo-Bold";
+        src: url("/CommanderSchedule/public/assets/fonts/Cairo-Bold.ttf") format("truetype");
+        font-weight: bold;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: "Cairo-Regular";
+        src: url("/CommanderSchedule/public/assets/fonts/Cairo-Regular.ttf") format("truetype");
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: "Cairo-Light";
+        src: url("/CommanderSchedule/public/assets/fonts/Cairo-Light.ttf") format("truetype");
+        font-weight: auto;
+        font-style: normal;
+    }
+}
